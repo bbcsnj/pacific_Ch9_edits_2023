@@ -25,7 +25,18 @@
 <h2>Reservations at Pacific Trails</h2>
 <h3>Contact Us</h3>
 <p>Required fields are marked with an asterisk *</p>
-
+<!-- CHAP 9 FORM EDIT BEGINS -->
+<form>
+<label for="myFName">*First Name: </label><input type="text" id="myFName" name="myFName" required>
+<label for="myLName">*Last Name: </label><input type="text" id="myLName" name="myLName" required>
+<label for="myEmail">*E-mail: </label><input type="email" id="myEmail" name="myEmail" required>
+<label for="myPhone">Phone: </label><input type="tel" id="myPhone" name="myPhone">
+<label for="myDate">Arrival Date: </label><input type="date" id="myDate" name="myDate">
+<label for="myNights">Nights: </label><input type="number" id="myNights" name="myNights" min="1" max="14">
+<label for="myComments">*Comments: </label><textarea id="myComments" name="myComments" rows="2" cols="20" required></textarea>
+<input type="submit" id="mySubmit" value="Submit">
+</form> 
+<!-- CHAP 9 FORM EDIT ENDS -->  
 </main>
 <footer>
 Copyright &copy; 2020 Pacific Trails Resort<br>
